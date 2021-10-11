@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #FC7240;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+    display: block;
+}
+
+.logo img {
+    width: 200px;
+    display: block !important;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.menu-principal {
+    position: relative;
+    float: right;
+    top: -30px;
+    margin-right: 75px;
+}
+
+.menu-principal li {
+    display: inline;
+    margin-left: 20px;
+    color: 393836;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: #4B4FA1;
+}
+
+.menu-principal li a:hover {
+    color: #FC7240;
+}
+
+.menu-principal .contato {
+    background-color: #FC7240;
+    padding: 10px 35px 10px 35px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.menu-principal .contato a {
+    color: white !important;
+}
+
+.container-principal {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #FC7240;
+    background-image: url(img/background.jpg);
+}
+
+.conteudoContainer {
+    position: relative;
+    float: left;
+    margin: 140px 0px 0px 75px;
+}
+
+.conteudoContainer h2 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: #FC7240;
+    padding: 0 0 30px 0;
+}
+
+.conteudoContainer h3 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #393836;
+    padding: 0 0 30px 0;
+}
+
+.conteudoContainer p {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #393836;
+    padding: 0 0 40px 0;
+}
+
+.conteudoContainerImg {
+    position: relative;
+    float: right;
+    top: 51px;
+}
+
+.conteudoContainer button {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    width: 300px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #FC7240;
+}
+
+.vetorMontanha {
+    display: block;
+    background-image: url(img/vetor.png);
+    background-repeat: no-repeat;
+    height: 461px;
+    z-index: -999;
+    margin-top: -80px;
+}
+
+.containerWeAreSangueLaranjaLeft {
+    display: block;
+    max-width: 50%;
+    margin: -175px 0 0 75px;
+    float: left;
+    left: 0;
+}
+
+.containerWeAreSangueLaranjaLeft h2 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: #393836;
+    padding: 0 0 30px 0;
+}
+
+.containerWeAreSangueLaranjaLeft h2 span {
+    color: #FC7240;
+}
+
+.containerWeAreSangueLaranjaLeft h3 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #393836;
+    padding: 0 0 30px 0;
+}
+
+.containerWeAreSangueLaranjaLeft p {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #393836;
+    padding: 0 0 40px 0;
+}
+
+.containerWeAreSangueLaranjaLeft button {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    width: 300px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #FC7240;
+}
+
+.containerWeAreSangueLaranjaRight {
+    display: block;
+    max-width: 60%;
+    margin: -250px 0 0 75px;
+    float: right;
+    left: 0;
+}
+
+.containerWeAreSangueLaranjaRight img {
+    margin-right: 75px;
+}
+
+#avisos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #FC7240;
+}
+
+#avisos div {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+#avisos .img-user {
+    max-height: 800px;
+    margin: 59px 0 0 -50px;
+}
+
+#avisos img {
+    margin-left: -80px;
+    display: block;
+}
+
+#avisos h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: -150px;
+    margin-bottom: 30px;
+}
+
+#avisos p {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+#avisos .posicao-3 {
+    margin-top: -134px;
+}
+
+#avisos .posicao-4 {
+    margin-top: -144px;
+}
+
+.containerQuadroAvisosAviso1 {
+    margin: -104px 50px 0 90px;
+}
+
+#avisos .titulo {
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-image: url(img/vetor-1.png);
+    display: block;
+}
+
+#avisos .titulo h2 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: #fff;
+    padding: 0 0 30px 75px;
+    margin-top: 300px;
+}
+
+.espacamentoFinal {
+    margin-bottom: 75px;
+}
+
+#avisos .titulo p {
+    padding: 0 0 30px 75px;
+}
+
+.containerDuvidas {
+    display: absolute;
+    margin: 0 0 75px 75px;
+}
+
+#duvidas p {
+    display: none;
+}
+
+#duvidas p.ativo {
+    display: block;
+}
+
+#duvidas .titulo {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: #393836;
+    padding: 75px 0 30px 75px;
+}
+
+#duvidas .titulo p {
+    display: block;
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #393836;
+    padding: 30px 0 30px 0px;
+}
+
+#duvidas h3 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    color: #4B4FA1;
+    display: block;
+    padding: 20px 0 20px 0;
+}
+
+#duvidas .separador {
+    border-bottom: 2px dashed #393836;
+    display: block;
+    width: 90%;
+}
+
+#duvidas .more {
+    display: block;
+    background-color: #FC7240;
+    width: 30px;
+    height: 30px;
+    padding: 10px 10px 8px 10px;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 100px;
+    position: relative;
+    float: right;
+    margin: -23px 75px 0 0;
+}
+
+#duvidas p {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #393836;
+    padding: 0 170px 30px 20px;
+}
+
+#nossasSedes {
+    display: block;
+    height: 700px;
+    background-color: #4B4FA1 !important;
+    position: absolute;
+}
+
+#nossasSedes h2 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: white;
+    padding: 75px 0 30px 75px;
+}
+
+#nossasSedes h3 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    color: white;
+    padding: 0 170px 20px 75px;
+}
+
+#nossasSedes .subtitulo {
+    display: block;
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+    padding: 0 75px 60px 75px;
+}
+
+#nossasSedes p {
+    display: block;
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+    padding: 0 75px 30px 75px;
+}
+
+#nossasSedes img {
+    display: block;
+    position: relative;
+    float: right;
+    top: -250px;
+    right: 75px;
+}
+
+.separadorSede {
+    border-bottom: 2px dashed white;
+    display: block;
+    width: 65%;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+#callToAction {
+    position: absolute;
+    margin-top: 500px;
+    display: block;
+    padding: 75px;
+}
+
+#callToAction h2 {
+    font-family: Quicksand ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: #393836;
+    padding: 75px 75px 0 0;
+    position: relative;
+}
+
+.containerTexto {
+    width: 60%;
+    position: relative;
+    float: right;
+    margin-top: -350px;
+}
+
+#callToAction img {
+    height: 500px;
+}
+
+.primeiraMontanha img {
+    display: block;
+    width: 100% !important;
+    margin-top: 1050px;
+}
+
+.containerImgFooter {
+    display: block;
+    z-index: -999;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.containerTextoFooter {
+    width: 50%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: right;
+}
+
+.containerImgFooter img {
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+}
+
+footer h2 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: #4B4FA1;
+    position: relative;
+    padding: 150px 0 0 75px;
+}
+
+#faleConosco h3 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    color: #393836;
+    padding: 30px 0 0 75px;
+}
+
+#faleConosco  h4 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #393836;
+    padding: 30px 170px 30px 75px;
+}
+
